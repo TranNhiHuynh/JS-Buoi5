@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- BÀI 1 -->
+    <h1>BÀI 1. QUẢN LÝ TUYỂN SINH</h1>
+    <br/>
+    <br/>
+    <input type="number" placeholder="Điểm chuẩn" id="point">
+    <br/>
+    <br/>
+    <input type="number" placeholder="Điểm môn thứ 1" id="sub1">
+    <br/>
+    <br/>
+    <input type="number" placeholder="Điểm môn thứ 2" id="sub2">
+    <br/>
+    <br/>
+    <input type="number" placeholder="Điểm môn thứ 3" id="sub3">
+    <br/>
+    <br/>
+    <input type="radio" id="area1" name="area">
+    <label for="area1">Khu vực 1</label>
+    &nbsp;
+    &nbsp;
+    <input type="radio" id="area2" name="area">
+    <label for="area2">Khu vực 2</label>
+    &nbsp;
+    &nbsp;
+    <input type="radio" id="area3" name="area">
+    <label for="area3">Khu vực 3</label>
+    &nbsp;
+    &nbsp;
+    <input type="radio" id="area4" name="area">
+    <label for="area4">Không thuộc</label>
+    <br/>
+    <br/>
+    <input type="radio" id="object1" name="object">
+    <label for="object1">Đối tượng 1</label>
+    &nbsp;
+    &nbsp;
+    <input type="radio" id="object2" name="object">
+    <label for="object2">Đối tượng 2</label>
+    &nbsp;
+    &nbsp;
+    <input type="radio" id="object3" name="object">
+    <label for="object3">Đối tượng 3</label>
+    &nbsp;
+    &nbsp;
+    <input type="radio" id="object4" name="object">
+    <label for="object4">Không thuộc</label>
+    <br/>
+    <br/>
+    <button id="btn">Tính điểm</button>
+    <br/>
+    <br/>
+    <label for="">KẾT QUẢ: </label> <span id="result"></span>
+
+    <!-- BÀI 2. TÍNH TIỀN ĐIỆN -->
+    <h1>BÀI 2. TÍNH TIỀN ĐIỆN</h1>
+    <br/>
+    <label for="">Số điện tiêu thụ </label>
+    <input type="number" name="" id="kw" placeholder="kw">
+    <br/>
+    <br/>
+    <button id="btn2">Tính tiền điện</button>
+    <br/>
+    <br/>
+    <label for="">KẾT QUẢ: </label> <span id="result2"></span>
+
+    <!-- BÀI 3. TÍNH THUẾ CÁ NHÂN -->
+    <h1>BÀI 3. TÍNH THUẾ CÁ NHÂN</h1>
+    <br/>
+    <label for="">Tổng thu nhập năm </label>
+    <input type="number" name="" id="salary" placeholder="...VND">
+    <br/>
+    <br/>
+    <label for="">Số người phụ thuộc</label>
+    <input type="number" name="" id="eff" placeholder="...">
+    <br/>
+    <br/>
+    <button id="btn3">Tính thuế</button>
+    <br/>
+    <br/>
+    <label for="">KẾT QUẢ: </label> <span id="result3"></span>
+    <script src="index.js"></script>
+
+    <!-- BÀI 4. TÍNH TIỀN CÁP -->
+    <h1>BÀI 4. TÍNH TIỀN CÁP</h1>
+    <br/>
+    <label for="">Loại khách hàng</label>
+        <select id="type">
+            <option value="1">Nhà dân</option>
+            <option value="2" selected>Doanh nghiệp</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="number" id="hype" placeholder="Số kênh cao cấp">&nbsp &nbsp &nbsp<input type="number" name="" id="connect" placeholder="Số kết nôi">
+        <br/>
+    <br/>
+    <button id="btn4">Tính</button>
+        <br/>
+        <br/>
+        <label for="">KẾT QUẢ: </label> <span id="result4"></span>
+    <script src="index.js"></script>
+</body>
+</html>
